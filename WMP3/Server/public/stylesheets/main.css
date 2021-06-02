@@ -1,0 +1,53 @@
+body {
+  padding: 0px;
+  font: 16px "Consolas", Helvetica, Arial, sans-serif;
+  background-color: black;
+  /* background-image: url("/images/matrix.gif");
+  background-repeat: repeat; */
+}
+
+.navbar {
+  background-color: #004141BB;
+  border-color: #008B8B;
+  border-style: solid;
+  color: #fff;
+  position: fixed;
+  top: 20px; /* Position the navbar at the top of the page */
+  left: 20px;
+  width: 200px; /* Full width */
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 9999;
+}
+
+.phoneIcon {
+  position: absolute;
+  z-index: 10;
+  top: 500px;
+  left: 300px;
+  width: 50px;
+  z-index: 9000;
+
+
+    transition-property: width height color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.map {
+  position: absolute;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  max-width: 1920px;
+  z-index: 1;
+}
+
+.dropdown {
+  background-color: black; /* Green */
+  border: 1px solid #008B8B;
+  width: 112px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
